@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.summary = 'Google logging module'
   spec.authors = 'Google'
 
-  spec.prepare_command = open("https://raw.githubusercontent.com/247-ai/tfs-react-native/master/scripts/ios-configure-glog.sh").read
+  spec.prepare_command = open("https://raw.githubusercontent.com/ggsrivas/react-pod/master/scripts/ios-configure-glog.sh").read
   spec.source = { :git => 'https://github.com/google/glog.git',
                   :tag => "v#{spec.version}" }
   spec.module_name = 'glog'
